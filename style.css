@@ -183,7 +183,6 @@ p{
 @media only screen and (max-width: 500px) {
 
     body{
-        margin: auto;
         padding: 0 var(--padding-sm);
     }
 
@@ -208,6 +207,7 @@ p{
         max-width: var(--mobile-width);
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     
     .right{
