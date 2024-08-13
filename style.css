@@ -25,7 +25,7 @@
      --spacing-lg2: 25px;
 
      /* line height variable */
-     --line-height-sm: 25px;
+     --line-height-sm: 23px;
      --line-height-md: 32px;
      --line-height-lg: 42px;
 
@@ -45,7 +45,7 @@
      --letter-spacing-sm: 8px;
 
      /* font-size variables */
-     --h1-size: 40px;
+     --h1-size: 38px;
      --h2-size: 30px;
      --h3-size: 28px;
      --h4-size: 16px;
@@ -55,7 +55,7 @@
      /* width and height */
      --mobile-width: 350px;
      --mobile-height: 350px;
-     --heigth-md: 600px;
+     --heigth-md: 480px;
      --width-md: 600px;
 }
 
@@ -117,7 +117,7 @@ button{
     color: var(--text-white);
     background-color: var(--bg-secondary);
     border-radius: var(--standard-border-radius);
-    margin-bottom: var(--spacing-lg1);
+    margin-bottom: var(--spacing-lg2);
 }
 button:hover{
     background-color: var(--color-active);
@@ -135,18 +135,18 @@ p, .span1, .span3{
 .span1{
     font-size: var(--h5-size);
     letter-spacing: var(--letter-spacing-sm);
-    margin-top: var(--spacing-lg1);
+    margin-top: var(--spacing-lg2);
 }
 h1{
     font-size: var(--h1-size);
-    width: 80%;
+    width: 90%;
     line-height: var(--line-height-lg);
     font-weight: var(--font-bold);
     margin-top: var(--spacing-md2);
 }
 
 p{
-    font-size: var(--h4-size);
+    font-size: var(--h5-size);
     font-weight: var(--font-md);
     color: var(--text-light);
     line-height: var(--line-height-sm);
@@ -225,7 +225,7 @@ p{
     .span1{
         font-size: var(--h6-size);
         letter-spacing: var(--letter-spacing-sm);
-        margin-top: var(--spacing-lg2);
+        margin-top: var(--spacing-lg1);
     }
 
     h1{
