@@ -184,6 +184,10 @@ p{
 
     body{
         padding: 0 var(--padding-sm);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .desktop {
@@ -207,7 +211,7 @@ p{
         max-width: var(--mobile-width);
         display: flex;
         flex-direction: column;
-        margin: auto;
+        margin: 0 auto;
     }
     
     .right{
