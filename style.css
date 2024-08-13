@@ -45,7 +45,7 @@
      --letter-spacing-sm: 8px;
 
      /* font-size variables */
-     --h1-size: 38px;
+     --h1-size: 35px;
      --h2-size: 30px;
      --h3-size: 28px;
      --h4-size: 16px;
@@ -207,7 +207,6 @@ p{
         display: inline-block;
     }
     .container{
-        /* min-height: var(--mobile-height); */
         max-width: var(--mobile-width);
         display: flex;
         flex-direction: column;
